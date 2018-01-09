@@ -11,4 +11,4 @@ bot.on('ready', function() {
     Console.log('Connecté')
 });
 
-bot.login('NDAwMDI1MDgzMjgxNjcwMTQ1.DTaKmg.Aa4SRcwF2dHT13rBCC8DCtceQv8')
+bot.login('NDAwMDI1MDgzMjgxNjcwMTQ1.DTas7w.MkGgwth2VSRKjuT-zpqoV_lLwC0')
