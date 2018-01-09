@@ -1,9 +1,9 @@
 const Discord = require('discord.js')
 const bot = new Discord.Client()
 
-bot.on("message", (message) => {
-    if(message.content === "?Waifu") {
-      message.channel.send("Nya");
+ot.on("message", (message) => {
+    if(message.content === "!Husbando") {
+      message.channel.send("Aiko est mon Husbando <3");
     }
   });
 
