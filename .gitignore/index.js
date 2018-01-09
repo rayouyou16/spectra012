@@ -7,18 +7,6 @@ bot.on("message", (message) => {
     }
   });
 
-  bot.on("message", (message) => {
-    if(message.content === "") {
-      message.channel.send("");
-    }
-  });
-
-  bot.on("message", (message) => {
-    if(message.content === "") {
-      message.channel.send("");
-    }
-  });
-
 bot.on('ready', function() {
     bot.user.setGame("créé des commandes");
     Console.log('Connecté')
