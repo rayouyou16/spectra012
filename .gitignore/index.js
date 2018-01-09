@@ -1,7 +1,7 @@
 const Discord = require('discord.js')
 const bot = new Discord.Client()
 
-bot.on("message", (message) => {
+bot.on('message', (message) => {
     if(message.content === "!Husbando") {
       message.channel.send("Aiko est mon Husbando <3");
     }
