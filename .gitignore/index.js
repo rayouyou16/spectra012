@@ -2,7 +2,7 @@ const Discord = require('discord.js')
 const bot = new Discord.Client()
 
 bot.on("message", (message) => {
-    if(message.content === ".waifu Nara") {
+    if(message.content === ".waifuNara") {
       message.channel.send("Nya :3");
     }
   });
